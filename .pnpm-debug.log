@@ -1,0 +1,21 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ELIFECYCLE",
+    "errno": "ENOENT",
+    "syscall": "spawn",
+    "file": "sh",
+    "pkgid": "timer@0.0.0",
+    "stage": "dev",
+    "script": "vite",
+    "pkgname": "timer",
+    "err": {
+      "name": "Error",
+      "message": "timer@0.0.0 dev: `vite`\nspawn ENOENT",
+      "code": "ELIFECYCLE",
+      "stack": "Error: timer@0.0.0 dev: `vite`\nspawn ENOENT\n    at ChildProcess.<anonymous> (/Users/andredealbuquerque/.nvm/versions/node/v14.16.1/pnpm-global/5/node_modules/.pnpm/pnpm@6.11.5/node_modules/pnpm/dist/pnpm.cjs:93047:22)\n    at ChildProcess.emit (events.js:315:20)\n    at maybeClose (internal/child_process.js:1048:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)"
+    }
+  }
+}
